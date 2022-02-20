@@ -37,7 +37,6 @@ nav ul{
 
 nav ul li{
     display: block;
-    margin: 15px;
     cursor: pointer;
 }
 
@@ -147,9 +146,9 @@ h2 {
 .pacienteColuna img {
     max-width: 100%;
     width: 76%;
-    height: 70%;
+    height: 78%;
     margin-left: 140px;
-    margin-top: 110px;
+    margin-top: 89px;
     padding-right: 40px;
 
 }
@@ -226,11 +225,20 @@ h2 {
 
 .profissionais {
     width: 100%;
-    margin-top: 90x;
+    margin-top: 70p x;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.fotoProfissional{
+    height: 200px;
+}
+
+.atendimento{
+    margin-left: -19px;
+    font-size: 15px
 }
 
 .cards {
@@ -241,8 +249,8 @@ h2 {
 .card {
     display: flex;
     flex-direction: column;
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 340px;
     margin: 50px;
     justify-content: center;
     align-items: center;
@@ -284,6 +292,18 @@ h2 {
     justify-content: flex-start;
     align-items: flex-start;
     line-height: 30px;
+}
+
+.nomeUnidade{
+    margin-bottom: 20px;
+}
+
+.infoLocal{
+    margin-bottom: 20px;
+}
+
+.telefonesContato{
+    margin-bottom: 20px;
 }
 
 footer {
