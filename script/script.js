@@ -1,21 +1,23 @@
-const showOnPx = 100;
-const backToTopBtn = document.querySelector(".backToTop");
+const divCards = document.getElementById("cards")
+const cards = document.querySelector(".cards").children;
+const listCards = [...cards];
+const detalhes = document.querySelector(".detalhes")
 
-const scrollContainer=()=>{
-    return document.documentElement || document.body;
+
+
+
+
+function expandirDetalhes() {
+    listCards.forEach(card => {
+        card.addEventListener("click", () => {
+            if (detalhes) {
+                detalhes.classList.toggle("hidden")
+                
+            }
+        })
+
+    })
 }
 
-document.addEventListener("scroll",()=>{
-    if(scrollContainer().scrollTop > showOnPx){
-        backToTopBtn.classList.remove("hidden")
-    }else{
-        backToTopBtn.classList.add("hidden")
-    }
-})
 
-const goToTop = () =>{
-    document.body.scrollIntoView
-}
-
-backToTopBtn.addEventListener("click",goToTop)
-
+expandirDetalhes()

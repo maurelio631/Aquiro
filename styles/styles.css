@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, p, label, div, section, footer, header, li, b {
 body {
     width: 100%;
     height: 100%;
+    min-height: 100%;
     background-color: #fff;
 }
 
@@ -236,6 +237,13 @@ h2 {
     align-items: center;
 }
 
+.infoProfissional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .fotoProfissional {
     height: 200px;
 }
@@ -244,9 +252,11 @@ h2 {
     margin-top: 15px;
 }
 
-.atendimento {
-    margin-left: -19px;
-    font-size: 15px
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .cards {
@@ -254,9 +264,19 @@ h2 {
     flex-direction: row;
 }
 
-.card {
+.cardsNotInline {
     display: flex;
     flex-direction: column;
+}
+
+.cardsInline {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
     height: 400px;
     width: 340px;
     margin: 50px;
@@ -290,6 +310,7 @@ h2 {
 
 
 .fachadaUnidade {
+    max-width: 100%;
     width: 500px;
     margin-right: 50px;
 }
@@ -330,7 +351,7 @@ h2 {
     z-index: 1;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -340,7 +361,8 @@ footer {
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 383px;
+    height: 0px;
+    margin-top: 180px;
 }
 
 footer img {
@@ -352,4 +374,141 @@ footer label {
     position: relative;
     top: -30px;
     color: #fff;
+}
+
+
+/* 700px*/
+@media (max-width:1000px) {
+    .pacienteColuna {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pacienteColuna img {
+        max-width: 100%;
+        width: 70%;
+        margin: 50px 0 0 0;
+        padding: 0;
+    }
+
+    .banner h3 {
+        top: 30%;
+        font-size: 2.125rem;
+    }
+
+    .banner label {
+        font-size: 1.1rem;
+        top: 51%
+    }
+
+
+    nav ul {
+        display: none;
+    }
+
+    .quiro {
+        margin: 0;
+        padding: 20px;
+    }
+
+
+    .info {
+        flex-direction: column;
+    }
+
+    .extraInfo h3 {
+        text-align: center;
+        display: flex;
+        padding: 26px;
+        justify-content: center;
+    }
+
+    .extraInfo ul {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .extraInfo p {
+        text-align: justify;
+        margin: 0;
+        padding: 26px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .unidade {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .nomeUnidade {
+        margin-top: 15px;
+    }
+
+    .unidadeInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btnMarcar {
+        margin: 25px 0 0 0;
+
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    .tituloComIcon {
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:500px) {
+    .banner h3 {
+        font-size: 1rem;
+    }
+
+    .banner label {
+        font-size: 1rem;
+        top: 47%;
+    }
+
+    .unidade {
+        margin: 0 auto;
+    }
+    .unidadeInfo {
+        text-align: center;
+    }
+
+    footer{text-align: center;}
+
+}
+
+/*400px*/
+@media (max-width:400px) {
+    .banner h3 {
+        font-size: 1.2rem;
+    }
+
+    .unidade {
+        margin: 0 auto;
+    }
+
+    footer label {
+        position: relative;
+        top: -50px;
+        text-align: center;
+    }
 }
