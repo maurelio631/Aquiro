@@ -84,9 +84,6 @@ nav ul li a i {
     border-radius: 10px;
 }
 
-
-
-
 h2 {
     font-family: inherit;
 }
@@ -165,6 +162,10 @@ h2 {
     left: 0px;
     color: #fff;
     margin: 10px 0;
+}
+
+.container{
+    background-image: url("../assets/img/Linhas.png");
 }
 
 .info {
@@ -315,6 +316,7 @@ h2 {
     align-items: center;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.256);
     border-radius: 30px;
+    background: white;
 }
 
 .card p {
