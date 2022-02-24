@@ -16,12 +16,11 @@ function expandirDetalhes() {
         card.addEventListener("click", () => {
             if (detalhes) {
                 detalhes.classList.toggle("hidden")
-                
+                console.log(card)
             }
         })
 
     })
 }
-
 
 expandirDetalhes()
