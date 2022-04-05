@@ -443,6 +443,7 @@ footer p {
     .pacienteColuna {
         display: flex;
         justify-content: center;
+        order: 2;
     }
 
     .pacienteColuna img {
