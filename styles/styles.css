@@ -405,9 +405,15 @@ footer p {
     color: #fff;
 }
 
+@media(min-width:1000px){
+    #social{
+        display: none;
+    }
+}
 
 /* 1000px*/
 @media (max-width:1000px) {
+   
     .toggleButton{
         display: flex;
     }
