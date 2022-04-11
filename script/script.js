@@ -5,7 +5,7 @@ const cards = document.querySelector(".cards").children;
 const listCards = [...cards];
 const detalhes = document.querySelector(".detalhes")
 
-toggleButton.addEventListener("click",()=>{
+toggleButton.addEventListener("click", () => {
     navbarLinks.classList.toggle('active')
 })
 
@@ -24,3 +24,10 @@ function expandirDetalhes() {
 }
 
 expandirDetalhes()
+
+
+const galeria = document.querySelector('.main-gallery')
+var flickty = new Flickity(galeria,{
+    contain: true,
+    autoPlay: true
+})

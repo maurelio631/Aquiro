@@ -1,13 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    list-style: none;
-}
-
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -27,6 +33,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
@@ -57,13 +64,13 @@ nav ul li a i {
     color: black !important;
 }
 
-.navbarLinks{
+.navbarLinks {
     width: 100%;
 }
 
-.toggleButton{
+.toggleButton {
     position: absolute;
-    top: 1.5rem;
+    top: 2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -73,7 +80,7 @@ nav ul li a i {
     z-index: 1;
 }
 
-.toggleButton .bar{
+.toggleButton .bar {
     height: 3px;
     width: 100%;
     background-color: #F70301;
@@ -97,8 +104,6 @@ h2 {
     align-items: center;
 }
 
-
-
 .fa-brands, .fa-solid {
     margin-right: 20px;
     margin-left: 20px;
@@ -111,9 +116,14 @@ h2 {
     transform: scale(1, 1);
 }
 
+.main-gallery {
+    width: 100%;
+    height: auto;
+}
+
 .logo {
-    height: 50px;
-    width: 50px;
+    width: 70px;
+    height: auto;
 }
 
 .logo a {
@@ -122,8 +132,11 @@ h2 {
     transform: translateY(-50%);
 }
 
-.logo a img {
-    width: 50px;
+.main-gallery{}
+
+.gallery-cell{
+    width: 100%;
+    padding: 1rem;
 }
 
 .banner {
@@ -158,10 +171,10 @@ h2 {
     margin: 10px 0;
 }
 
-.container{
+.container {
     background-image: url("../assets/img/Linhas.png");
     background-repeat: no-repeat;
-    background-position-y: 25% ;
+    background-position-y: 25%;
 }
 
 .info {
@@ -405,16 +418,18 @@ footer p {
     color: #fff;
 }
 
-@media(min-width:1000px){
-    #social{
+@media(min-width:1000px) {
+    #social {
         display: none;
     }
 }
 
 /* 1000px*/
 @media (max-width:1000px) {
-   
-    .toggleButton{
+    .gallery-cell{
+        width: 100%;
+    }
+    .toggleButton {
         display: flex;
     }
 
@@ -423,19 +438,19 @@ footer p {
         align-items: flex-start;
     }
 
-    nav ul{
+    nav ul {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    nav ul li{
+    nav ul li {
         width: 100%;
         text-align: center;
-        padding: .5rem 1rem ;
+        padding: .5rem 1rem;
     }
 
-    .navbarLinks.active{
+    .navbarLinks.active {
         display: none;
     }
 
@@ -462,7 +477,6 @@ footer p {
         font-size: 1.1rem;
         top: 51%
     }
-
 
     .quiro {
         margin: 0;
@@ -531,15 +545,14 @@ footer p {
         margin-bottom: 30px;
     }
 
-    .social{
+    .social {
         display: none;
     }
-    .unidade{
+
+    .unidade {
         margin-bottom: 2%;
     }
 }
-
-
 
 @media (max-width:700px) {
     .banner h3 {
@@ -565,7 +578,7 @@ footer p {
         text-align: center;
     }
 
-    
+
 
 }
 
