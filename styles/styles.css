@@ -11,7 +11,7 @@ html {
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -51,8 +51,6 @@ nav ul li {
     display: block;
     cursor: pointer;
 }
-nav ul li:hover {
-}
 
 nav ul li a {
     text-decoration: none;
@@ -61,11 +59,11 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #F70301;
     font-weight: bold;
     border-bottom: 1px solid red;
-} 
+}
 
 
 nav ul li a i {
@@ -114,7 +112,7 @@ h2 {
     align-items: center;
 }
 
-.social i:hover{
+.social i:hover {
     color: #F70301;
     transform: scale(1.7);
     transition-delay: .2s;
@@ -133,11 +131,11 @@ h2 {
     transform: scale(1, 1);
 }
 
-i{
+i {
     color: black;
 }
 
-i:hover{
+i:hover {
     color: #F70301;
 }
 
@@ -157,7 +155,7 @@ i:hover{
     display: block;
 }
 
-.gallery-cell{
+.gallery-cell {
     width: 100%;
 }
 
@@ -216,7 +214,6 @@ i:hover{
     margin-left: 140px;
     margin-top: 89px;
     padding-right: 40px;
-
 }
 
 .tituloComIcon {
@@ -453,9 +450,10 @@ footer p {
 
 /* 1000px*/
 @media (max-width:1000px) {
-    .gallery-cell{
+    .gallery-cell {
         width: 100%;
     }
+
     .toggleButton {
         display: flex;
     }
@@ -480,7 +478,6 @@ footer p {
     .navbarLinks.active {
         display: none;
     }
-
 
     .pacienteColuna {
         display: flex;
@@ -584,7 +581,8 @@ footer p {
     .unidade {
         margin-bottom: 2%;
     }
-    footer p{
+
+    footer p {
         padding: 1%;
     }
 }
