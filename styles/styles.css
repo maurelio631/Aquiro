@@ -65,6 +65,10 @@ nav ul li:hover i, nav ul li:hover a  {
     border-bottom: 1px solid red;
 }
 
+nav ul li:hover i {
+    border:0
+}
+
 
 nav ul li a i {
     color: black;
