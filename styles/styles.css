@@ -59,7 +59,7 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a:hover {
+nav ul li:hover i, nav ul li:hover a  {
     color: #F70301;
     font-weight: bold;
     border-bottom: 1px solid red;
