@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Site dedicado a apresentar a Quiropraxia de maneira descomplicada e introduzir um local onde se pode ter a melhor experiência com dois dos maiores profissionais do segmento na cidade de Sâo Paulo">
-        <link rel="stylesheet" href="./styles/styles.css">
-        <script src="https://kit.fontawesome.com/21a3131f64.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-        <title>A Quiropraxia</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="assets/img/LogoSemFundo.png">
-                    </a>
-                </div>
-                <a href="#" class="toggleButton">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Site dedicado a apresentar a Quiropraxia de maneira descomplicada e introduzir um local onde se pode ter a melhor experiência com dois dos maiores profissionais do segmento na cidade de Sâo Paulo">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/21a3131f64.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>A Quiropraxia</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/LogoSemFundo.png">
                 </a>
-                <div class="navbarLinks active">
-                    <ul>
-                        <li>
-                            <a class=" link" href="#info">
-                                <i class="fa-solid fa-circle-question"></i>
-                                O que é
+            </div>
+            <a href="#" class="toggleButton">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbarLinks active">
+                <ul>
+                    <li>
+                        <a class=" link" href="#info">
+                            <i class="fa-solid fa-circle-question"></i>
+                            O que é
                             Quiropraxia?
                         </a>
                     </li>
@@ -125,76 +128,73 @@
                 Alguns estudos comprovam que para pacientes com dor na coluna lombar, para as quais não haja contra
                 indicação quanto a manipulação articular, a Quiropraxia garante benefícios compensadores e de longa
                 duração, em comparação aos tratamentos hospitalares ambulatoriais oferecidos a pacientes.
-                </p>
-                <h3>Quais os problemas tratados com a Quiropraxia?</h3>
-                <ul>
-                    <li> → Dores nas costas e no pescoço;</li>
-                    <li> → Enxaqueca e dores de cabeça;</li>
-                    <li> → Hérnia de disco, dor ciática;</li>
-                    <li> → Tensão muscular, tendinite, artrite e artrose;</li>
-                    <li> → Restrições de movimentos;</li>
-                    <li> → Problemas nas articulações em geral: ombro, cotovelo, punho, mãos, joelho, tornozelo;</li>
-                    <li>
-                        → LER (lesão por esforço repetitivo) e DORT (distúrbios osteomusculares relacionados ao trabalho);
-                    </li>
-                    <li> → Problemas relacionados à mordida (ATM) como bruxismo, desvio da mordida, entre outros.</li>
-                </ul>
+            </p>
+            <h3>Quais os problemas tratados com a Quiropraxia?</h3>
+            <ul>
+                <li> → Dores nas costas e no pescoço;</li>
+                <li> → Enxaqueca e dores de cabeça;</li>
+                <li> → Hérnia de disco, dor ciática;</li>
+                <li> → Tensão muscular, tendinite, artrite e artrose;</li>
+                <li> → Restrições de movimentos;</li>
+                <li> → Problemas nas articulações em geral: ombro, cotovelo, punho, mãos, joelho, tornozelo;</li>
+                <li>
+                    → LER (lesão por esforço repetitivo) e DORT (distúrbios osteomusculares relacionados ao trabalho);
+                </li>
+                <li> → Problemas relacionados à mordida (ATM) como bruxismo, desvio da mordida, entre outros.</li>
+            </ul>
+        </div>
+        <div class="profissionais" id="profissionais">
+            <div class="tituloComIconCentralizado">
+                <i class="fa-solid fa-user-group iconPreto"></i>
+                <h2>Sobre nós</h2>
             </div>
-            <div class="profissionais" id="profissionais">
-                <div class="tituloComIconCentralizado">
-                    <i class="fa-solid fa-user-group iconPreto"></i>
-                    <h2>Sobre nós</h2>
+            <div class="cards cardsInline" id="cards">
+                <div class="card">
+                    <div class="infoProfissional">
+                        <img loading="lazy" class="fotoProfissional"
+                            src="./assets/img/Fotos usadas - Site A Quiropraxia/Aline.png" alt="Aline Souza">
+                        <b class="nomeProfissional">Aline Souza</b>
+                        <p>Bacharel em Quiropraxia pela Universidade Anhembi Morumbi</p>
+                        <div>
+                            <i class="fa-solid fa-location-dot iconPreto"></i>
+                            <label class="atendimento">Vila Mascote e Santo André</label>
+                        </div>
+                    </div>
                 </div>
-                <div class="cards cardsInline" id="cards">
-                    <div class="card">
-                        <div class="infoProfissional">
-                            <img
-                                loading="lazy"
-                                class="fotoProfissional"
-                                src="./assets/img/Fotos usadas - Site A Quiropraxia/Aline.png"
-                                alt="Aline Souza"
-                            >
-                            <b class="nomeProfissional">Aline Souza</b>
-                            <p>Bacharel em Quiropraxia pela Universidade Anhembi Morumbi</p>
-                            <div>
-                                <i class="fa-solid fa-location-dot iconPreto"></i>
-                                <label class="atendimento">Vila Mascote e Santo André</label>
-                            </div>
-                        </div>
-                        <!-- <div class="detalhes hidden">
-                        <div class="formacaoAcademica">
-                            <p> → Graduação Modulada em Terapia Manual Mioarticular</p>
-                            <p> → Pós Graduanda em Biomecânica da Atividade Física e Saúde </p>
-                        </div>
-                        <div class="cursosDeTecnicas">
-                            <b> Cursos de Técnicas </b>
-                            <p> - Gonstead: Básico e Avançado;</p>
-                            <p>- AMP (Advanced Muscle
-                                Palpation);</p>
+                <div class="detalhes">
+                    <h3>Formação acadêmica e cursos complementares</h3>
+                    <div class="formacaoAcademica">
+                        <p> → Graduação Modulada em Terapia Manual Mioarticular</p>
+                        <p> → Pós Graduanda em Biomecânica da Atividade Física e Saúde </p>
+                    </div>
+                    <div class="cursosDeTecnicas">
+                        <b> Cursos de Técnicas </b>
+                        <p> - Gonstead: Básico e Avançado;</p>
+                        <p>- AMP (Advanced Muscle
+                            Palpation);</p>
 
-                            <p> - SOT: Categorias: CMRT (Téc. de Quiropraxia manipulativa reflexa/
-                                téc. visceral)/ Craniopatia Quiroprática;</p>
+                        <p> - SOT: Categorias: CMRT (Téc. de Quiropraxia manipulativa reflexa/
+                            téc. visceral)/ Craniopatia Quiroprática;</p>
 
-                            <p> - Activator;</p>
-                            <p>- Thompson;</p>
-                            <p>- ART (Active Release Technique).</p>
-                        </div>
-                        <div class="atendimento">
-                            <b>Atendimentos</b>
-                            <p> - Atende bebês, crianças, grávidas, jovens, adultos, idosos e atletas;</p>
+                        <p> - Activator;</p>
+                        <p>- Thompson;</p>
+                        <p>- ART (Active Release Technique).</p>
+                    </div>
+                    <div class="atendimento">
+                        <b>Atendimentos</b>
+                        <p> - Atende bebês, crianças, grávidas, jovens, adultos, idosos e atletas;</p>
 
-                            <p> - Atua como Quiropraxista voluntária na comunidade Heliópolis;</p>
+                        <p> - Atua como Quiropraxista voluntária na comunidade Heliópolis;</p>
 
-                            <p>- Participou de Missão de Quiropraxia em 2017 na região da Chapada dos
-                                Veadeiros (GO),
-                                oferecendo atendimento gratuito para populações das
-                                cidades de Alto Paraíso de Goiás e Cavalcante.</p>
-                        </div>
-                    </div> -->
+                        <p>- Participou de Missão de Quiropraxia em 2017 na região da Chapada dos
+                            Veadeiros (GO),
+                            oferecendo atendimento gratuito para populações das
+                            cidades de Alto Paraíso de Goiás e Cavalcante.</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <div class="unidades" id="unidades">
         <div class="tituloComIconCentralizado">
