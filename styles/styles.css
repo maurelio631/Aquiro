@@ -594,6 +594,12 @@ footer p {
   .detalhes{
     width: 90%;
   }
+  .detalhes h3{
+    text-align: center;
+  }
+  .detalhes b{
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
