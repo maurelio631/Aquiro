@@ -522,12 +522,6 @@ footer p {
     justify-content: center;
   }
 
-  .extraInfo ul {
-    margin: 0;
-    padding: 10px;
-    margin-left: 50%;
-  }
-
   .extraInfo p {
     text-align: justify;
     margin: 0;
@@ -595,9 +589,6 @@ footer p {
     width: 90%;
   }
   .detalhes h3{
-    text-align: center;
-  }
-  .detalhes b{
     text-align: center;
   }
 }
